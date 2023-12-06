@@ -74,12 +74,35 @@
       <!-- Dropdown type spesimen End-->
       <!-- Add Data Button & Modal Start -->
       <div class="add-button">
-        <button
-          onclick="document.getElementById('id01').style.display='block'"
-          class="addbtn"
-        >
-          Add Data
-        </button>
+        <button class="addbtn">Add Data</button>
+        <div id="id01" class="modal">
+          <!-- Modal Content -->
+          <form class="modal-content" action="">
+            <div class="modal-container">
+              <label for="spname"><b>Species Name</b></label>
+              <input
+                class="spname-input"
+                type="text"
+                placeholder="Enter Species Name"
+                name="spname"
+                required
+              />
+              <br />
+              <label for="cmname"><b>Common Name</b></label>
+              <input
+                class="cmname-input"
+                type="text"
+                placeholder="Enter Common Name"
+                name="cmname"
+                required
+              />
+              <button class="addspc" type="submit">Add Species</button>
+            </div>
+            <div class="cancelbtn-container">
+              <button class="cancelbtn">Cancel</button>
+            </div>
+          </form>
+        </div>
       </div>
       <!-- Add Data Button & Modal Start End -->
     </section>

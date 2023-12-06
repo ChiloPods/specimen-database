@@ -33,3 +33,17 @@ window.onclick = function (event) {
     }
   }
 };
+
+//Fungsi show modal
+function showModal() {
+  document.getElementById("id01").style.display = "block";
+}
+
+// Fungsi hide modal
+function hideModal() {
+  document.getElementById("id01").style.display = "none";
+}
+
+// Menempel fungsi pada button
+document.querySelector(".addbtn").addEventListener("click", showModal);
+document.querySelector(".cancelbtn").addEventListener("click", hideModal);
