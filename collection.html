@@ -33,49 +33,57 @@
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="collection.html">Collection</a>
-        <a href="#login">Login</a>
+        <a href="login.html">Login</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="archive"><i data-feather="archive"></i></a>
+        <a href="collection.html" id="search"><i data-feather="search"></i></a>
+        <a href="collection.html" id="archive"
+          ><i data-feather="archive"></i
+        ></a>
         <a href="#" id="menu"><i data-feather="menu"></i></a>
       </div>
     </nav>
     <!-- Navbar End -->
-    <!-- Search Bar -->
-    <div class="search-container">
-      <input
-        type="text"
-        class="search-input"
-        placeholder="Q Search Spesimen..."
-      />
-      <button type="submit" class="search-button">
-        <i class="fa fa-search"></i>
-      </button>
-    </div>
-    <!-- Search Bar End -->
-    <!-- Dropdown type spesimen -->
-    <div class="dropdown-type">
-      <button onclick="dropdownFunc()" class="dropbtn">
-        Phylum Type | <i class="fa fa-caret-down" aria-hidden="true"></i>
-      </button>
-      <div id="typeDropdown" class="dropdown-content">
-        <a href="#All">All</a>
-        <a href="#Myriapoda">Myriapoda</a>
-        <a href="#Arachnid">Arachnid</a>
-        <a href="#Insecta">Insecta</a>
-      </div>
-    </div>
-    <!-- Dropdown type spesimen End-->
-    <!-- Collection Section -->
+    <!-- Collection Section Start -->
     <section class="collection" id="collection-1">
-      <main class="content">
-        <h1>Mari lihat-lihat <span>koleksi</span></h1>
-      </main>
+      <!-- Search Bar Start-->
+      <div class="search-container">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Q Search Spesimen..."
+        />
+        <button type="submit" class="search-button">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+      <!-- Search Bar End -->
+      <!-- Dropdown type spesimen -->
+      <div class="dropdown-type">
+        <button onclick="dropdownFunc()" class="dropbtn">
+          Phylum Type | <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </button>
+        <div id="typeDropdown" class="dropdown-content">
+          <a href="#All">All</a>
+          <a href="#Myriapoda">Myriapoda</a>
+          <a href="#Arachnid">Arachnid</a>
+          <a href="#Insecta">Insecta</a>
+        </div>
+      </div>
+      <!-- Dropdown type spesimen End-->
+      <!-- Add Data Button & Modal Start -->
+      <div class="add-button">
+        <button
+          onclick="document.getElementById('id01').style.display='block'"
+          class="addbtn"
+        >
+          Add Data
+        </button>
+      </div>
+      <!-- Add Data Button & Modal Start End -->
     </section>
     <!-- Collection Section End -->
-
     <!-- Feather Icons End -->
     <script>
       feather.replace();
@@ -83,5 +91,6 @@
 
     <!-- Javascript -->
     <script src="js/script.js"></script>
+    <script src="src/index.js"></script>
   </body>
 </html>
