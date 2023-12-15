@@ -1,5 +1,4 @@
 // Toggle class active
-
 const navbarNav = document.querySelector(".navbar-nav");
 
 // ketika menu di klik
@@ -47,3 +46,4 @@ function hideModal() {
 // Menempel fungsi pada button
 document.querySelector(".addbtn").addEventListener("click", showModal);
 document.querySelector(".cancelbtn").addEventListener("click", hideModal);
+document.querySelector(".dropbtn").addEventListener("click", dropdownFunc);
