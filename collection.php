@@ -42,7 +42,7 @@
     </nav>
     <!-- Navbar End -->
     <!-- Collection Section Start -->
-    <section class="collection" id="collection-1">
+    <section class="collection-1" id="collection-1">
       <!-- Search Bar Start-->
       <div class="search-container">
         <input
@@ -149,7 +149,7 @@
       </div>
       <!-- Add Data Button & Modal Start End -->
     </section>
-    <section  class="collection" id="collection-1">
+    <section  class="collection-2" id="collection-2">
       
         <!-- PHP Data Start-->
         <?php

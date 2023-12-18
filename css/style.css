@@ -203,14 +203,24 @@ body {
 }
 /* About Section End */
 /* Collection Section Start */
-.collection {
-  min-height: 20vh;
+.collection-1 {
+  min-height: 40vh;
   display: flex;
   align-items: center;
   background-color: #fff;
   background-size: cover;
   position: relative;
 }
+
+.collection-2 {
+  min-height: 2px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  background-size: cover;
+  position: relative;
+}
+
 .search-container {
   /* position: absolute; */
   top: 150px;
@@ -219,6 +229,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
+  margin-left: 40px;
 }
 
 .search-button {
@@ -239,10 +250,11 @@ body {
 }
 
 .search-input {
-  width: 100%;
+  width: 84%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  margin-right: -5px;
 }
 .dropdown-type {
   /* position: absolute; */
@@ -260,6 +272,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   cursor: pointer;
+  margin-left: 150px;
 }
 
 .dropdown-content {
