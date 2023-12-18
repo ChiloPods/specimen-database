@@ -21,8 +21,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($connect->query($sql) === TRUE) {
             echo "Species added successfully";
+            header("location: collection.php"); 
         } else {
             echo "Error: " . $sql . "<br>" . $connect->error;
+            echo "<br><a href='collection.php'>Kembali Ke Form</a>";
         }
     } else {
         echo "File upload failed.";

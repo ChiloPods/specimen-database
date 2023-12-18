@@ -257,12 +257,9 @@ body {
   margin-right: -5px;
 }
 .dropdown-type {
-  /* position: absolute; */
-  top: 150px;
-  left: 460px;
-  align-items: center;
-  justify-content: space-between;
+  position: relative;
   margin-top: 20px;
+  left: 100px;
 }
 
 .dropbtn {
@@ -272,7 +269,6 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 150px;
 }
 
 .dropdown-content {
@@ -300,12 +296,9 @@ body {
 }
 
 .add-button {
-  /* position: absolute; */
-  top: 150px;
-  right: 200px;
-  align-items: center;
-  justify-content: space-between;
+  position: relative;
   margin-top: 20px;
+  left: 700px;
 }
 .addbtn {
   width: 85px;
